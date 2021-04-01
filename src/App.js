@@ -1,13 +1,20 @@
 import './App.css';
+import Header from './components/Header'
+import AppBody from './components/AppBody'
+import AddPersonForm from './components/AddPersonForm'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <a>
-          Lets Build A Contact Manager
-        </a>
-      </header>
+      
+      <Header />
+
+      <AddPersonForm />
+      
+      <AppBody />
+
+      
     </div>
   );
 }
