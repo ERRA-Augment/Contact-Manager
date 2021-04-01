@@ -1,11 +1,15 @@
 .addperson {
-  
+    font-size: 12px;
     border: 2px solid black;
     border-radius: 5px;
     margin-left: 30%;
     margin-right: 30%;
+    display: flex;
   }
-  
+  .textinput {
+    margin-top: 20px;
+    margin-left: 10px;
+  }
   .addperson > h1 {
     text-align: center;
   }
