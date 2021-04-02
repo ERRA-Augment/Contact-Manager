@@ -1,0 +1,6 @@
+.newcontact > h3 {
+color: white;
+display: flex;
+background-color: rgb(98, 53, 204);
+justify-content: center;
+}

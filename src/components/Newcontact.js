@@ -1,9 +1,12 @@
 import React from 'react'
+import '.././css/Newcontact.css'
 
-function Newcontact() {
+function Newcontact(props) {
+    console.log(props);
     return (
         <div>
-            <div className='new__contact'><h3>New Contact</h3></div>
+            {props.count}            
+            <div className="newcontact" id={`new__contact__${props.count}`} ><h3>{' ' + props.value}</h3></div>
         </div>
     )
 }
